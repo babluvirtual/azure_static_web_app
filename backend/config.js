@@ -1,14 +1,14 @@
 module.exports = {
-  server: "sql_server.database.windows.net",
+  server: "azurestaticappdb.database.windows.net",
   authentication: {
     type: "default",
     options: {
-      userName: "username",
-      password: "password",
+      userName: "useradmin",
+      password: "Staticwebapp@123",
     },
   },
   options: {
-    database: "database_name",
+    database: "testDB",
     encrypt: true,
   },
 };
